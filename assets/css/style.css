@@ -6,6 +6,7 @@ header {
     background-color: white;
     position: fixed;
     width: 100%;
+    top: 0;
 }
 section {
     position: relative;
@@ -22,8 +23,12 @@ footer {
     width: 100%;
     height: 30px;
     background-color: #666666;
-    border-top: 5px #4aaaa5;
     text-align: center;
-    color: white;
-    
+    color: white;   
+}
+
+.homero {
+    margin: 5%;
+
+
 }

@@ -2,3 +2,28 @@ body {
     background-image: url(../images/leaves-pattern.png);
     background-repeat: repeat;
 }
+header { 
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+section {
+    position: relative;
+    top: 100px;
+    /* This will create the 960px total width */
+    width: 480px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #666666;
+    border-top: 5px #4aaaa5;
+    text-align: center;
+    color: white;
+    
+}

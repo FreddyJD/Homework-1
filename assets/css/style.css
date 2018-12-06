@@ -5,6 +5,7 @@ body {
 header { 
     background-color: white;
     position: fixed;
+    height: 35px;
     width: 100%;
     top: 0;
 }
@@ -23,8 +24,13 @@ footer {
     width: 100%;
     height: 30px;
     background-color: #666666;
+}
+
+.footer-text {
+    font-size: 8px;
     text-align: center;
-    color: white;   
+    color: white;
+    margin-top: -6px;
 }
 
 hr {
@@ -40,11 +46,28 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 
-p, li, a { 
+p { 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     color: gray;
+    line-height: 1.4;
 
+}
+
+a { 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: gray;
+    float: inherit;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 12px 15px;
+
+}
+
+img { 
+    height: 100px;
+    width: 100px;
+    float: inherit;
 }
 
 .homero {
@@ -55,4 +78,36 @@ p, li, a {
     position: relative;
     margin: 5%;
     bottom: 10px;
+}
+
+.house::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.marge {
+    position: relative;
+    float: left;
+    left: 40px;
+}
+
+.marge-head-text {
+    color: white;
+    background-color: #4aaaa5;
+    width: 20%;
+    text-align: center;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+
+
+.maggy {
+    position: relative;
+    float: right;
+    right: 40px;
+
+
 }

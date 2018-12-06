@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<header>
-    <ul>
-        <li>About</li>  <li>Porfolio</li> <li href="">Contact</li>
-    </ul>
+<header class="house">
+    <div class="maggy"> 
+        <a href="#">About</a>
 
-    <h2>Freddy J.</h2>
+        <a href="#">Portfolio</a>
 
+        <a href="#">Contact</a>
+    </div>
+    
+    <div class="marge marge-head-text">
+        <h2>Freddy J.</h2>
+    </div>
+        
 
 </header>
 
@@ -31,7 +37,7 @@
         <hr>
 
         <div class="bart"> 
-            <img src="" alt="kitty photo">
+            <img src="./assets/images/picture.png" alt="kitty photo">
             <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed laborum voluptatum blanditiis officiis neque eaque rerum atque, alias ea ipsa debitis autem sint, qui aperiam repellendus suscipit eos, maiores cumque? </p>
         </div>
             
@@ -41,13 +47,16 @@
 </body>
 <footer>
 
+
     <!-- Got the idea of  "making it Automatic" by copying 
         http://updateyourfooter.com
 
         This snip will automatic update the year 
     -->
-    
-    &copy; 2017<script>new Date().getFullYear()>2017&&document.write("-"+new Date().getFullYear());</script>, copyright.
+    <br>
+    <p class="footer-text">
+        &copy; 2017<script>new Date().getFullYear()>2017&&document.write("-"+new Date().getFullYear());</script>, copyright.
+    </p>
     
 </footer>
 </html>

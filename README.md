@@ -1,4 +1,4 @@
-#Freddy's Homework #1
+# Freddy's Homework #1
 - CSS Class's are located at `assets/css/style.css`
 - CSS Attributes are located at `assets/css/main.css`
 

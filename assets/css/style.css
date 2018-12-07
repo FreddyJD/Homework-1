@@ -41,39 +41,39 @@
 .items { 
     width: 190px;
     height: 30px;
-    position: fixed;
     background-color: #4aaaa5;
     color: #ffff;
     text-align: center;
     line-height: 1.7;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    position: absolute;
 }
 .item-1 {
-    top: 450px;
-    left: 338px;
+    top: 35%;
+    left: 2.3%;
 }
 .item-2 {
-    top: 450px;
-    left: 572px;
+    top: 35%;
+    left: 28.9%;
 }
 
 .item-3 {
-    top: 450px;
-    left: 806px;
+    top: 35%;
+    left: 55.5%;
 }
 
 .item-4 {
-    top: 680px;
-    left: 338px;
+    top: 85%;
+    left: 2.3%;
 }
 .item-5 {
-    top: 680px;
-    left: 572px;
+    top: 85%;
+    left: 28.9%;
 }
 .item-6 {
-    top: 680px;
-    left: 806px;
+    top: 85%;
+    left: 55.5%;
 }
 .content-img {
     float: left;

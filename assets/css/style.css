@@ -1,11 +1,3 @@
-.portfolio-box { 
-    height: 100px;
-    width: 100px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    border: 10px solid transparent;
-    float: left;
-}
 .foot {
     bottom: 0;
     height: 35px;

@@ -154,9 +154,13 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-  }
+}
+.button:hover {
+   background: #FFF; 
+   color: #4aaaa5;
+}
 
 .big-input {
     background-color:#FFF;
-    min-height:350px;
+    min-height:100px;
    }

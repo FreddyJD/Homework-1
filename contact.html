@@ -1,64 +1,55 @@
 <!DOCTYPE html>
 <html>
-<!-- Google discovery data  -->
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Freddy's contact| Homework</title>
+    <title>Freddy's website | Homework</title>
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<!-- End of google discovery data  -->
 
-<!-- Sticky header  -->
-<header class="house">
-    <div class="marge marge-head-text">
+<header class="nav-bar">
+    <div class="nav-bar-logo-text">
         <h2>Freddy J.</h2>
     </div>
-    <div class="maggy"> 
-        <a href="contact.html">Contact</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="index.html">About</a>
+    <div class="nav-bar nav-bar-link"> 
+        <a class="nav-bar-a" href="contact.html">Contact </a> <a class="lines">|</a>
+        <a class="nav-bar-a" href="portfolio.html">Portfolio</a> <a class="lines">|</a>
+        <a class="nav-bar-a" href="index.html">About</a>  
     </div>
 </header>
-<!-- end of sticky header  -->
-
-<!-- starts body-->
 <body>
-    <section>
-        <div class="homero">
-            <br>
-            <h2>
-                Contact
-            </h2>
+    <section class="content">
+        <div class="content-head-text">
+            <h2>About Me</h2>
         </div>
-        <hr>
-        <div class="bart"> 
-            <form> 
-                Name 
-                <input type="text">
-                <br>
-                Last name
-                <input type="text">
-                <br>
-                Email
-                <input type="email">
-                <br>
-                <input type="submit">
-
-            </form>
-            
+        <hr class="hr-line">
+        <div class="content-text"> 
+                <form> 
+                        Name
+                        <br><br>
+                        <input type="text">
+                        <br><br>
+                        Last name
+                        <br><br>
+                        <input type="text">
+                        <br><br>
+                        Email
+                        <br><br>
+                        <input type="email">
+                        <br><br>
+                        <button class="button">Button</button>
+                        <br><br>
+                    </form>
         </div>
     </section>
 </body>
-<!-- end's boddy -->
-
-<footer>
-    <br>
-    <p class="footer-text">
-            copyright &copy; 2017<script>new Date().getFullYear()>2017&&document.write("-"+new Date().getFullYear());</script> 
-    </p>    
-</footer
->
+<footer class="foot">
+    <div class="border"></div>
+    <div class="foot-text">
+        <p>Copytight &copy; 2017<script>new Date().getFullYear()>2017&&document.write("-"+new Date().getFullYear());</script></p>
+    </div>
+</footer>
 </html>

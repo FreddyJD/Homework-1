@@ -41,3 +41,9 @@ p, a{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: gray;
 }
+
+input {
+    width: 90%;
+    
+
+}

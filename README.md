@@ -1,7 +1,9 @@
-# Home work
+#Freddy's Homework #1
+- CSS Class's are located at `assets/css/style.css`
+- CSS Attributes are located at `assets/css/main.css`
 
-Guide for Home work #1
-- Class `Maggy` and `Marge` are used for the header.
-- Class `Bart` and `Homero` are used for the body in the index page. 
-- Class `Homero` is also used to organize the portfolio images.
-- The quick fix is named as `House` 
+###### Preferred display resolution
+- Normal / 100%.
+
+###### Preferred Browser
+- Safari and Chrome.

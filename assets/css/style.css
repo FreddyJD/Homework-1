@@ -61,6 +61,28 @@
     top: 450px;
     left: 338px;
 }
+.item-2 {
+    top: 450px;
+    left: 572px;
+}
+
+.item-3 {
+    top: 450px;
+    left: 806px;
+}
+
+.item-4 {
+    top: 680px;
+    left: 338px;
+}
+.item-5 {
+    top: 680px;
+    left: 572px;
+}
+.item-6 {
+    top: 680px;
+    left: 806px;
+}
 .content-img {
     float: left;
     margin-left: 30px;
@@ -132,5 +154,9 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
   }
+
+.big-input {
+    background-color:#FFF;
+    min-height:350px;
+   }

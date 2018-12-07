@@ -1,9 +1,9 @@
 # Freddy's Homework #1
-- CSS Class's are located at `assets/css/style.css`
-- CSS Attributes are located at `assets/css/main.css`
+- CSS Class's are located at `assets/css/style.css`.
+- CSS Attributes are located at `assets/css/main.css`.
 
 ###### Preferred display resolution
-- Normal / 100%.
+- Normal view / 100%.
 
 ###### Preferred Browser
-- Safari and Chrome.
+- Safari or Chrome.

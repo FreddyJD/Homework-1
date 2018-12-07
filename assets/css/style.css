@@ -1,3 +1,4 @@
+/* From here my footer styling  */
 .foot {
     bottom: 0;
     height: 35px;
@@ -12,11 +13,16 @@
     text-align: center;
     color: white;
 }
+
+/* 
+From here all the content displayed inside the body tag
+index.html contact.html portfolio.html
+ */
 .content {
     width: 960px;
-    height: auto;
-    margin: 0 auto;
     top: 20%;
+    margin: 0 auto;
+    height: auto;
     background-color: #ffffff;
     position: relative;
     content: "";
@@ -45,6 +51,7 @@
     color: #ffff;
     text-align: center;
     line-height: 1.7;
+    /*  Yes! I used Arial for the display name's. At least it looks a little bit better ;-)  */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: absolute;
@@ -90,25 +97,25 @@
 
 .hr-line { 
     width: 90%;
-    background-color: #666666;
     height: 3.5px;
+    background-color: #666666;
 }
 
+/* From here my nav bar styling */
 .nav-bar { 
     height: 50px;
     border-bottom: 2px solid #cccccc;
 }
 
 .nav-bar-logo-text {
-    position: relative;
     left: 40px;
-    float: left;
     line-height: 50px;
     width: 20%;
+    position: relative;
+    float: left;
     color: white;
     background-color: #4aaaa5;
     text-align: center;
-
 }
 
 .nav-bar-link {
@@ -117,35 +124,40 @@
     position: relative;
     float: right;
 }
+
 .nav-bar-a {
     padding: 10px;
     text-decoration: none;
 }
 
 .lines {
-    color: gray;
     opacity: 40%;
     font-size: 10px;
+    color: gray;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
+
+/* Here is a simple border for the footer */
 .border { 
-    background-color: #4aaaa5;
     width: 100%;
     height: 3px;
+    background-color: #4aaaa5;
 }
+
+/* Forms styling */
 .button {
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
     background-color: #4aaaa5;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
 }
 .button:hover {
    background: #FFF; 
@@ -153,6 +165,7 @@
 }
 
 .big-input {
-    background-color:#FFF;
     min-height:100px;
-   }
+    background-color:#FFF;
+}
+/* End of my styling  */
